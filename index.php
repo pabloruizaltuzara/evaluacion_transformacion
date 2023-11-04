@@ -12,7 +12,7 @@ if (isset($_SESSION['S_IDUSUARIO'])) {
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>SISEVAL</title>
+  <title>EVALUACIÓN</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="template/vendors/feather/feather.css">
   <link rel="stylesheet" href="template/vendors/ti-icons/css/themify-icons.css">
