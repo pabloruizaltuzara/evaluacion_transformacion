@@ -21,10 +21,8 @@
                 <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Foto</th>
-                <th scope="col">Cargo</th>
                 <th scope="col">Nivel</th>
                 <th scope="col">Ingreso</th>
-                <th scope="col">Retiro</th>
                 <th scope="col">Estado</th>
                 <th scope="col">Acciones</th>
               </tr>
@@ -78,11 +76,7 @@
           <label for="txtCargoPerAdmin">Cargo</label>
           <select class="form-control form-control-sm" id="txtCargoPerAdmin">
             <option value="">--Seleccionar--</option>
-            <option value="MAESTRANZA">MAESTRANZA</option>
-            <option value="TENSILAN">TENSILAN</option>
-            <option value="ESTIBADO">ESTIBADO</option>
-            <option value="PLASTOFORMO">PLASTOFORMO</option>
-            <option value="JORNALEROS">JORNALEROS</option>
+            <option value="MAESTRANZA">EVALUADOR</option>
           </select>
         </div>
 

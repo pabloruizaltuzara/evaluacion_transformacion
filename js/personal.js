@@ -1,6 +1,8 @@
 var tbl_personal_admin;
 function listarPersonalAdmin() {
 
+  $.fn.dataTable.ext.errMode = 'throw';
+
   tbl_personal_admin = $("#personal_admin").DataTable({
     ordering: false,
     bLengthChange: true,
@@ -31,19 +33,8 @@ function listarPersonalAdmin() {
           );
         },
       },    
-      { data: "cargo_area" },
       { data: "nivel" },
       {data:"ingreso"},
-      {
-        data: "retiro",
-        render: function (data, type, row) {
-          if(data == "" || data == null || data=="0000-00-00"){
-            return ("SIN FECHA");
-          } else{
-            return (data);
-          }
-        },
-      },
       {
         data: "estado",
         render: function (data, type, row) {
@@ -137,19 +128,8 @@ function listarPersonalEncar() {
           );
         },
       },    
-      { data: "cargo_area" },
       { data: "nivel" },
       {data:"ingreso"},
-      {
-        data: "retiro",
-        render: function (data, type, row) {
-          if(data == "" || data == null || data=="0000-00-00"){
-            return ("SIN FECHA");
-          } else{
-            return (data);
-          }
-        },
-      },
       {
         data: "estado",
         render: function (data, type, row) {
@@ -411,17 +391,6 @@ function Registrar_Personal_Admin(tipo){
         "Ingrese la fecha de ingreso al trabajo, por favor",
         "warning"
       );
-    }
-    if (salida.length != 0) {
-      var f1 = new Date(ingreso);
-      var f2 = new Date(salida);
-      if (f2 < f1){
-        return Swal.fire(
-          "Mensaje de advertencia",
-          "La fecha de retiro no puede ser anterior a la fecha de ingreso",
-          "warning"
-        );
-      }
     }
 
     if(tipo=='A')

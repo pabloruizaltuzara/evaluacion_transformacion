@@ -26,7 +26,6 @@ session_start();
                 <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Foto</th>
-                <th scope="col">Puesto</th>
                 <th scope="col">Ministerio</th>
                 <th scope="col">Estado</th>
                 <th scope="col">Acciones</th>

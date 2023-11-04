@@ -34,7 +34,6 @@ function listarPersonalObreros(area) {
           );
         },
       },
-      { data: "puesto" },
       {data:"ministerio"},    
 
       {
