@@ -4,10 +4,14 @@
         public $pdo;
 
         public function conexionPDO(){
-            $host='localhost';
+            /* $host='localhost';
             $usuario='root';
             $contrasena='';
-            $dbName='dbevaluacion';
+            $dbName='dbevaluacion'; */
+            $host='localhost';
+            $usuario='u962432011_transformacion';
+            $contrasena='transformacionEBEN23';
+            $dbName='u962432011_transformacion';
 
 
             try{

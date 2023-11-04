@@ -86,8 +86,7 @@
         </div>
 
         <div class="form-group">
-          <label for="txtSalidaObrero">Retiro</label>
-          <input type="date" class="form-control" id="txtSalidaObrero" placeholder="Fecha de retiro">
+          <input type="date" class="form-control" id="txtSalidaObrero" hidden placeholder="Fecha de retiro">
         </div>
         <div class="col-md-12 mb-4">
           <label for="txtFotoPerAdmin">Foto: </label>
@@ -135,11 +134,7 @@
         <div class="form-group">
           <label for="txtCargoPerAdmin">Cargo</label>
           <select class="form-control form-control-sm" id="txtCargoPerAdminEditar">
-            <option value="MAESTRANZA">MAESTRANZA</option>
-            <option value="TENSILAN">TENSILAN</option>
-            <option value="ESTIBADO">ESTIBADO</option>
-            <option value="PLASTOFORMO">PLASTOFORMO</option>
-            <option value="JORNALEROS">JORNALEROS</option>
+            <option value="MAESTRANZA">EVALUADOR</option>
           </select>
         </div>
 
@@ -148,8 +143,7 @@
           <input type="date" class="form-control" id="txtIngresoEditarPersonal" placeholder="Fecha de ingreso">
         </div>
         <div class="form-group">
-          <label for="txtSalidaEditarPersonal">Retiro</label>
-          <input type="date" class="form-control" id="txtSalidaEditarPersonal" placeholder="Fecha de retiro">
+          <input type="date" class="form-control" id="txtSalidaEditarPersonal" hidden placeholder="Fecha de retiro">
         </div>
 
       </div>
