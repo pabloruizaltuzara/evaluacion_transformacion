@@ -14,7 +14,7 @@
    $porAdmin= array();
 
     //$mysqli=new mysqli("localhost","root","","dbevaluacion");
-    $mysqli=new mysqli("localhost","u962432011_transformacion","transformacionEBEN23","u962432011_transformacion");
+    $mysqli=new mysqli("localhost","u962432011_transformacion","transformacionEBEN23","u962432011_dbevaluacion");
     $mysqli->set_charset('utf8');
     $statement=$mysqli->prepare("SELECT evaluacion.id, 
     CONCAT(obreros.nombre,' ',obreros.paterno,' ',obreros.materno) as nombreObrero, 

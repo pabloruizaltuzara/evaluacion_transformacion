@@ -11,7 +11,7 @@
             $host='localhost';
             $usuario='u962432011_transformacion';
             $contrasena='transformacionEBEN23';
-            $dbName='u962432011_transformacion';
+            $dbName='u962432011_dbevaluacion';
 
 
             try{
