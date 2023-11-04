@@ -1,0 +1,50 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.sinborde{
+    font-size: 11px;
+	color: #707070;
+	background-color: #0e0303;
+	border-width:0;
+}
+
+
+#btn-mas{
+    display: none;
+}
+.container-pts{
+    position: fixed;
+    top:70px;
+    right: 20px;
+    z-index: 10;
+}
+.redes a, .btn-mas label{
+    display: block;
+
+    background: rgb(75, 73, 172);
+    color: #fff;
+    padding-top: 10px;
+    width: 85px;
+    height: 85px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .redes a, .btn-mas label{
+
+        color: #fff;
+        padding-top: 28px;
+        width: 105px;
+        height: 105px;
+    }
+ 
+  }
